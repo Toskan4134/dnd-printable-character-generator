@@ -17,7 +17,7 @@ const CanvasPreview: React.FC<CanvasPreviewProps> = ({
                     <div className='flex justify-center'>
                         <canvas
                             ref={tokenCanvasRef}
-                            className='border h-full sm:max-h-[25vh] w-auto shadow-md rounded-full'
+                            className='border h-full sm:max-h-[25vh] w-3/5 sm:w-auto shadow-md rounded-full'
                         />
                     </div>
                 </div>
