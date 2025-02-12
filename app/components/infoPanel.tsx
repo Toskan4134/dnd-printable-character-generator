@@ -1,5 +1,4 @@
-import React, { useRef, useState } from 'react';
-import Image from 'next/image';
+import React, { useState } from 'react';
 
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 

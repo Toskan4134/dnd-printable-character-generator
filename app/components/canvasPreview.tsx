@@ -1,5 +1,3 @@
-import { useState, useRef, useEffect } from 'react';
-
 interface CanvasPreviewProps {
     tokenCanvasRef: React.RefObject<HTMLCanvasElement> | null;
     miniatureCanvasRef: React.RefObject<HTMLCanvasElement> | null;

@@ -1,5 +1,4 @@
 import { StaticImageData } from 'next/image';
-import { useCallback } from 'react';
 
 export const generateTokenPreview = (
     completedCrop: any,

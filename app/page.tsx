@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import ImageUploader from './components/imageUploader';
 import ImageCropper from './components/imageCropper';
 import CanvasPreview from './components/canvasPreview';
@@ -8,7 +8,7 @@ import OptionsPanel from './components/optionsPanel';
 
 import miniatureImage from './assets/templates/miniature.png';
 import tokenImage from './assets/templates/token.png';
-import ReactCrop, { Crop, centerCrop, makeAspectCrop } from 'react-image-crop';
+import { Crop, centerCrop, makeAspectCrop } from 'react-image-crop';
 import 'react-image-crop/dist/ReactCrop.css';
 import { dragOverHandler, dropHandler } from './utils/dragAndDrop';
 import { downloadAllImagesAsZip } from './utils/downloadFiles';
