@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    basePath: '/dnd-printable-character-generator',
+    output: 'export',
+    reactStrictMode: true,
 };
 
 export default nextConfig;
